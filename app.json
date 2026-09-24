@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "zhinianmusic",
-    "slug": "snack-39389cd1-8449-4b64-9b86-121af212e3f5",
+    "name": "枝念音乐",
+    "slug": "zhinianmusic",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,18 +13,29 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zhinian.music"
     },
-    "android": {"package": "com.zhinian.yinfang",
+    "android": {
+      "package": "com.zhinian.music",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "枝念音坊｜AI音乐创作平台，让每一个念头，都成为一首歌。"
+    "description": "枝念音乐 AI音乐创作平台，让每一个灵感都成为一首歌。",
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "29bdec33-617d-45fb-8c9a-f84bc6448a97"
+      }
+    }
   }
 }
